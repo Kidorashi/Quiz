@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+	<style>
+	body {background-color:#F7D0B4}
+	h1   {color:159927}
+	p    {color:159927}
+	</style>
+</head>
+<body>
+</head>
+<body style="font-family:'Comic Sans MS', cursive">
+<h1>Здравствуйте!</h1>
+<hr>
+<p style="text-align:center"> Добро пожаловать в мою анкету. Это не займёт у вас много времени.<br>
+Укажите, на какой слог вы делаете ударение в предложенных словах.<br>
+</p>
+
+<form>
+    
+	<label>Как вас зовут? <input type="text" name="name"> </label><br>
+	<label>Сколько вам лет <input type="text" name="age"> </label><br>
+    <label>В каком городе вы родились? <input type="text" name="town"></label><br>
+	<label>дОговор<input type="radio" name="answ1" value="дОговор"></label><br>
+    <label>договОр<input type="radio" name="answ1" value="договОр"></label><br>
+    <label>апОстроф<input type="radio" name="answ2" value="апОстроф"></label><br>
+    <label>апострОф<input type="radio" name="answ2" value="апострОф"></label><br>
+	<label>бАловать<input type="radio" name="answ3" value="бАловать"></label><br>
+    <label>баловАть<input type="radio" name="answ3" value="баловАть"></label><br>
+	<input type="submit" value="Отправить">
+</form>
+
+<a href="{{stats}}">Статистика</a><br>
+<a href="{{jsones}}">Данные в формате json</a><br>
+</body>
+</html>
