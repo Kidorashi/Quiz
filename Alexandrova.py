@@ -13,7 +13,6 @@ sl3=''
 slovo=''
 count=0
 
-
 @app.route('/')
 def form():
     f=open('C:\\Users\\1\\Desktop\\data.txt', 'a', encoding="UTF-8")
